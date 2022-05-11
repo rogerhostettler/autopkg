@@ -144,10 +144,10 @@ class HypatiaProvider(Processor):
             raise ProcessorError('Did not specify a product_id for the EFI Hypatia provider.')
 
         request_content = _new_software_request(self.env['product_id'])
-        request = urllib2.Request(HYPATIA_URL)
+        request = urllib.Request(HYPATIA_URL)
 
         # try:
-        url_handle = urllib2.urlopen(request, request_content)
+        url_handle = urllib.urlopen(request, request_content)
         html_response = url_handle.read()
         url_handle.close()
         # except Exception as e:
