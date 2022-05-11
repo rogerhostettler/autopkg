@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env /Library/AutoPkg/Python3/Python.framework/Versions/Current/Python
 #
 # Copyright 2022
 #
