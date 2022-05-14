@@ -9,7 +9,7 @@
 	<key>ParentRecipe</key>
 	<string>com.github.rogerhostettler.autopkg.download.nudge</string>
 	<key>Description</key>
-	<string>Imports dockutil into Munki</string>
+	<string>Imports nudge into Munki</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

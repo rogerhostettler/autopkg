@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release of Dockutil from Github.</string>
+    <string>Downloads the current release of nudge from Github.</string>
     <key>Identifier</key>
     <string>com.github.rogerhostettler.autopkg.download.nudge</string>
     <key>Input</key>
